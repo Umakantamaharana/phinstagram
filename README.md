@@ -26,3 +26,10 @@ python3 phinstagram.py
 # Step 4
 - copy the url and paste it in browser
 - Go to browser and open "http://localhost:5000"
+- fill the username, password and click on login
+- 🤯 **BOOOOOOM** 💣💣💣
+- Nothing happens, the original instagram pages opens ..
+- **Buuuuutttt** ..
+# Step 5
+- Now open data.txt file just created during the above step
+- You'll see the username and password in your text file.
