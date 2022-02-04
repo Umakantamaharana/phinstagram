@@ -1,5 +1,5 @@
 # phinstagram
-A **phishing** page for _**instagram**_. Only for **mobile view**, which stores all the credentials in a **text** file.
+A **phishing** page for _**instagram**_. which stores all the credentials in a **text** file.
 
 >Procedure
 ### Step 1
