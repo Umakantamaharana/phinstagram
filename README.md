@@ -1,3 +1,6 @@
+## DISCLAIMER
+### All the information provided on this page are for educational purposes only. The page is no way responsible for any misuse of the information.
+
 # phinstagram
 A **phishing** page for _**instagram**_. which stores all the credentials in a **text** file.
 
